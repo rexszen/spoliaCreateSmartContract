@@ -1,0 +1,132 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_referralAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_referralString",
+						"type": "string"
+					}
+				],
+				"name": "addReferral",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "github",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "referrals",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "referralAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "referralString",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalReferrals",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Register.sol": "Register"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Register.sol": {
+			"keccak256": "0x003218dac1bbaea8e14f563a74fe52c92862ff647fa1991fdd84940c2e7f712f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e7814d3ba7b5928ca03233b5216c5dbfa0f461a1330a445777a6a5d48d25ebb3",
+				"dweb:/ipfs/QmP22JKCGYZk8PKcUFycYMxotZDUxuEVSjuYPpxSG14xEv"
+			]
+		}
+	},
+	"version": 1
+}
